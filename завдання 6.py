@@ -1,0 +1,15 @@
+from tkinter import*
+window = Tk()
+c = Canvas(window, width = 300, height = 300, bg = 'white')
+c.pack()
+c.create_rectangle(0 , 0, 300, 100, fill = 'blue', outline = 'blue')
+c.create_rectangle(0, 75, 300, 300, fill = 'green', outline = 'green')
+c.create_rectangle(25, 150, 200, 260, fill = 'beige', outline = 'beige') #hata_na_tata
+c.create_rectangle(25, 260, 200, 280, fill = 'brown', outline = 'brown')
+c.create_rectangle(45,200, 75,260, fill = 'brown', outline = 'brown')
+c.create_rectangle(100, 170, 130, 200, fill ='turquoise', outline = 'turquoise')
+c.create_rectangle(150, 170, 180, 200, fill ='turquoise', outline = 'turquoise')
+c.create_polygon(25, 150, 200, 150, 180, 130, 45, 130,  fill = 'brown', outline = 'brown')
+c.create_rectangle(250,250, 270,280, fill = 'brown', outline = 'brown')
+c.create_oval( 230, 150, 290, 260, fill = 'lightgreen', outline = 'lightgreen')
+window.mainloop()
